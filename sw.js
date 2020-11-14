@@ -9,9 +9,9 @@ workbox.core.setCacheNameDetails({
   runtime: 'run-time'
 });
 
-const FALLBACK_HTML_URL = '/offline.html';
+const FALLBACK_HTML_URL = 'https://rawcdn.githack.com/ninura/ninura.store/eaa0a363aca8eaaedbeabd150f891bc6588e07c9/offline.html';
 const version = workbox.core.cacheNames.suffix;
-workbox.precaching.precacheAndRoute([{url: FALLBACK_HTML_URL, revision: null},{url: '/manifest.json', revision: null},{url: '/favicon.ico', revision: null},{url: '/css/roboto.css', revision: null}]);
+workbox.precaching.precacheAndRoute([{url: FALLBACK_HTML_URL, revision: null},{url: 'https://rawcdn.githack.com/ninura/ninura.store/9f6162e4c3129aa7d89bd151fce101c161ee0aea/manifest.json', revision: null},{url: '/favicon.ico', revision: null},{url: 'https://rawcdn.githack.com/ninura/ninura.store/eaa0a363aca8eaaedbeabd150f891bc6588e07c9/roboto.css', revision: null}]);
 
 workbox.routing.setDefaultHandler(new workbox.strategies.NetworkOnly());
 
