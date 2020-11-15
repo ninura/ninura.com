@@ -40,6 +40,7 @@
     "src": "https://1.bp.blogspot.com/-yTzN-IK9Yfo/X47Mwxtg6mI/AAAAAAAAAGY/SH_t9kNAEyET3pONSDPXgU_bZyWn3z35QCLcBGAsYHQ/w512-h512/NINURA.jpg",
     "sizes": "512x512",
     "type": "image/png",
-    "density": "5.0"
+    "density": "5.0",
+    "purpose": "any maskable"
   }]
 }
