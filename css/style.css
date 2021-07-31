@@ -1,3 +1,49 @@
+#header .widget p.title-description{color:#3d3d3d;font-size:14px;font-size:.875rem;margin:5px 0}
+
+#social-button .social-icon:hover{background:var(--ninura-darker-color)}
+#social-button .linkedin-icon i{background:url("data:image/svg+xml;charset=utf8,<svg height='22' viewBox='0 0 24 24' width='22' xmlns='http://www.w3.org/2000/svg'><path d='M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z' fill='white'/></svg>")}
+#social-button .telegram-icon i{background:url("data:image/svg+xml;charset=utf8,<svg height='22' viewBox='0 0 24 24' width='22' xmlns='http://www.w3.org/2000/svg'><path d='M9.78,18.65L10.06,14.42L17.74,7.5C18.08,7.19 17.67,7.04 17.22,7.31L7.74,13.3L3.64,12C2.76,11.75 2.75,11.14 3.84,10.7L19.81,4.54C20.54,4.21 21.24,4.72 20.96,5.84L18.24,18.65C18.05,19.56 17.5,19.78 16.74,19.36L12.6,16.3L10.61,18.23C10.38,18.46 10.19,18.65 9.78,18.65Z' fill='white'/></svg>")}
+
+.iconsearch-label:hover{background:rgba(0,0,0,0.09)}
+
+div#searchcontainer form input::-moz-placeholder{color:#fff;opacity:.5}
+div#searchcontainer form input:-ms-input-placeholder{color:#fff;opacity:.5}
+div#searchcontainer form input::-ms-input-placeholder{color:#fff;opacity:.5}
+div#searchcontainer form input:-ms-input-placeholder{color:#fff;opacity:.5}
+div#searchcontainer form input::-ms-input-placeholder{color:#fff;opacity:.5}
+div#searchcontainer.opensearch{left:0;opacity:1;-webkit-transform:scale(1) translate3d(0,0,0);transform:scale(1) translate3d(0,0,0);-webkit-transition:-webkit-transform .3s,opacity .3s,left 0s 0s;-webkit-transition:opacity .3s,left 0s 0s,-webkit-transform .3s;transition:opacity .3s,left 0s 0s,-webkit-transform .3s;transition:transform .3s,opacity .3s,left 0s 0s;transition:transform .3s,opacity .3s,left 0s 0s,-webkit-transform .3s}
+div#searchcontainer.opensearch form{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-transition:all .3s .3s;transition:all .3s .3s;transition:all .3s .3s}
+
+.darkmode-switch input:checked+.slider{background-color:#428c2f;border:2px solid #fff}
+.darkmode-switch .switch:hover .slider:before{background:#3d3d3d}
+.darkmode-switch .switch:hover{opacity:1}
+.darkmode-switch input:checked+.slider::before{background:#fff}
+.darkmode-switch input:checked+.slider:before{-webkit-transform:translateX(18px);transform:translateX(18px)}
+
+#subscribe-box-wrap #subscribe-box p{font-size:32px;padding:0;margin:0;font-weight:bold}.FollowByEmail{overflow-y:auto}
+
+.FollowByEmail .follow-by-email-submit:hover{background:#c46400}
+
+#footer-content a:hover{color:var(--dark-grey)}
+
+#goTop.is-visible{opacity:.9;right:36px}
+
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}
+[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}
+[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+
+a:hover{color:#var(--ninura-darker-color)}
+
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}
+
+#top-widget.no-items,#top-widget2.no-items{display:none}
+#top-widget h2,#top-widget2 h2{display:none}
+
+.FeaturedPost h2 a:hover,.FeaturedPost h3 a:hover{color:var(--ninura-main-color)}
+p.featured-more a:hover{background:var(--ninura-darker-color)}
+
 .skip-to-link:focus{-webkit-transform:translateY(0);transform:translateY(0)}
 body.darkmode{background:#353535;color:#eee}
 body.darkmode a:link,body.darkmode .toc button{color:#a3daef;-webkit-transition:all .2s;transition:all .2s}
