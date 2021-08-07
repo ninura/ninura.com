@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-This page is maintained by [Ninura](https://www.ninura.com) and still under construction.You can use the [editor on GitHub](https://github.com/ninura/ninura.store/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This page is maintained by [Ninura](https://www.ninura.com) and still under construction. Here, I will share things I have learnt about HTML, CSS, and JavaScript. You can use the [editor on GitHub](https://github.com/ninura/ninura.store/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
