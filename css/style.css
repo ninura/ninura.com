@@ -1,4 +1,7 @@
 body.darkmode img{filter: brightness(.8) contrast(1.2)}
+body.darkmode details{width:100%;margin:0 auto;background:#282828;margin-bottom:.5rem;box-shadow:0 .1rem 1rem -.5rem rgba(0,0,0,.4);border-radius:5px;overflow:hidden;color:#fff}
+body.darkmode summary{padding:1rem;display:block;background:#333;padding-left:2.2rem;position:relative;cursor:pointer}
+body.darkmode summary:before{content:'';border-width:.4rem;border-style:solid;border-color:transparent transparent transparent #fff;position:absolute;top:1.3rem;left:1rem;transform:rotate(0);transform-origin:.2rem 50%;transition:.25s transform ease}
 body.darkmode .PopularPosts .popular-post-snippet,body.darkmode #header .widget p.title-description,body.darkmode .darkmode-switch .switch-title,body.darkmode .FollowByEmail,body.darkmode .post-info,body.darkmode .post-info a,body.darkmode .breadcrumbs,body.darkmode .breadcrumbs a{color:#bbb !important}
 body.darkmode,body.darkmode #social-button .social-icon:hover{background:#353535}
 body.darkmode,body.darkmode #footer-content,body.darkmode #footer-content a,body.darkmode .FeaturedPost h3 a,body.darkmode .FeaturedPost h2 a,body.darkmode .FeaturedPost p.featured-desc,body.darkmode .post-title,body.darkmode .post-title a,body.darkmode .latestposts-title h2,body.darkmode .html-produk .normalwidget-title h3.title,body.darkmode .html-jasa .normalwidget-title h3.title,body.darkmode .html-produk .normalwidget-title h2.title,body.darkmode .html-jasa .normalwidget-title h2.title,body.darkmode .normalwidget-title h3.title,body.darkmode .normalwidget-title h2.title,body.darkmode .navmenu-content>ul>li>a,body.darkmode .navmenu-button,body.darkmode #header .widget a,body.darkmode #header .widget,body.darkmode #navmenu-sidebar-closebtn .closebtn,body.darkmode #navmenu-sidebar-closebtn .closebtn-title,body.darkmode .PopularPosts .popular-post-title a,body.darkmode #sidebar-wrap ol li::before,body.darkmode #sidebar-wrap a:link,body.darkmode #sidebar-wrap a:visited,body.darkmode #navmenu-sidebar-body ul li a,body.darkmode .navmenu-content li li a{color:#eee !important}
@@ -13,6 +16,8 @@ body.darkmode #footer-outer{background:#313131}
 body.darkmode #footer-content{background:#282828}
 body::selection{background-color:#f57d00;color:#fff}
 body.darkmode::selection{background:#c46400}
+details[open] > summary:before{transform:rotate(90deg)}
+summary:hover{opacity:.8}
 .skip-to-link:focus{transform:translateY(0)}
 #header .widget img{max-height:35px;display:block;width:auto;margin:5px 25px 5px 0}
 #header .widget .hide-title .blog-title{text-indent:-9999px;visibility:hidden;margin:0;padding:0;height:0}
