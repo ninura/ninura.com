@@ -1,0 +1,13 @@
+body.darkmode{background:#353535;color:#eee}
+body.darkmode img{filter:brightness(.8) contrast(1.2)}
+body.darkmode a:link,body.darkmode .toc button{color:#a3daef;transition:all .2s}
+body.darkmode a:visited{color:#a3daef}
+body.darkmode a:hover{color:#fff}
+blockquote[style]{background:transparent;border-left:0 solid transparent;font-style:normal}
+#sidebar-wrap a:hover{color:#636363}
+#sidebar-wrap ul li::before{border:3px solid #2675A6}
+body.darkmode #sidebar-wrap a:link{color:#eee}
+body.darkmode #sidebar-wrap a:visited{color:#eee}
+body.darkmode #sidebar-wrap a:hover{color:#fff}
+summary:hover,summary:focus{opacity:.8}
+details[open] > summary:before,body.darkmode details[open] > summary:before{transform:rotate(90deg)}
