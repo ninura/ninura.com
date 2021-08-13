@@ -1,5 +1,7 @@
 body.darkmode{background:#353535;color:#eee}
 body.darkmode img{filter:brightness(.8) contrast(1.2)}
+::selection{background:#f57d00;color:#fff}
+a:hover{color:#f57d00}
 body.darkmode a:link,body.darkmode .toc button{color:#a3daef;transition:all .2s}
 body.darkmode a:visited{color:#a3daef}
 body.darkmode a:hover{color:#fff}
@@ -19,3 +21,50 @@ body.darkmode code{color:#f1f1f1;background-color:#3d3d3d;border:3px solid #0808
 code:hover{cursor:pointer;font-weight:bolder;transition:all .2s;outline:none}
 code:focus{animation:selectPre 100ms step-end forwards}
 @keyframes selectPre{to{user-select:text}}
+.buttonDownload:hover{opacity:.85}
+.buttonDownload:hover::after{animation-play-state:running}
+@keyframes downloadArrow{0%{margin-top:-7px;opacity:1}0.001%{margin-top:-15px;opacity:0}50%{opacity:1}100%{margin-top:0;opacity:0}}
+body.darkmode a.buttonDownload{background:#080808;color:#ffffff;transition:all .4s}
+a.skip-to-link:focus{transform:translateY(0)}
+body.darkmode a.skip-to-link{background:#080808;color:#ffffff}
+body.darkmode #header-wrap{background:#2b2b2b}
+body.darkmode #header-content{background:#232323}
+body.darkmode #header .widget,body.darkmode #header .widget a{color:#bbbbbb}
+body.darkmode #header .widget p.title-description{color:#eeeeee}
+#header .widget img{max-height:33px;display:block;width:auto;margin:5px 25px 5px 0}
+#header .widget img.lazyload{min-width:160px}
+#header .widget img.lazyload.shown{min-width:unset}
+#social-button .social-icon:hover{background:#d46400}
+body.darkmode #social-button .social-icon{background:#232323}
+body.darkmode #social-button .social-icon:hover{background:#353535}
+body.darkmode #navmenu-wrap,body.darkmode #navmenu-wrap-sticky{background:#2f2f2f}
+div#searchcontainer.opensearch{left:0;opacity:1;transform:scale(1) translate3d(0,0,0);transition:transform .3s,opacity .3s,left 0s 0s}
+div#searchcontainer.opensearch form{opacity:1;transform:translate3d(0,0,0);transition:all .3s .3s}
+#navmenu-wrap-sticky.navsticky-show{transform:translateY(0);transition:transform .2s ease-in-out}
+body.darkmode .navmenu,body.darkmode .menu-sticky{background:#2b2b2b}
+.menu-sticky .navmenu-content>ul>li>a,.menu-sticky .navmenu-content li li a{outline:0}
+body.darkmode .navmenu-content li li a{color:#eee}
+body.darkmode .navmenu-content>ul>li>a{color:#eee}
+body.darkmode .navmenu-content>ul>li>a::before{background:#eee}
+body.darkmode .navmenu-content>ul>li.has-sub>a::after{border-bottom:1px solid #eee;border-left:1px solid #eee}
+body.darkmode .navmenu-content li li.has-sub::after{border-bottom:1px solid #eee;border-right:1px solid #eee}
+body.darkmode .navmenu-content ul li ul{background:#4a4a4a}
+body.darkmode .navmenu-content>ul>li>ul:before{border-bottom-color:#4a4a4a}
+body.darkmode .navmenu-content li li a:before{background:#eee}
+.navmenu-content>ul>li.has-sub:hover>a::before{width:calc(100% - 13px);transition:width .2s}
+.navmenu-content>ul>li:hover>a::before{width:100%;transition:width .2s}
+.navmenu-content>ul>li a:hover{cursor:pointer}
+.navmenu-content ul li:hover>ul,.navmenu-content ul li ul:hover,.navmenu-content ul li ul:focus{visibility:visible;opacity:1;transform:translateY(0);transition:opacity .2s ease,visibility .2s ease,transform .2s ease;}
+.navmenu-content ul li:focus-within>ul{visibility:visible;opacity:1;transform:translateY(0);transition:opacity .2s ease,visibility .2s ease,transform .2s ease}
+.navmenu-content ul ul li a:hover{cursor:pointer}
+.navmenu-content li li:hover>a::before{width:100%;transition:width .2s}
+.iconsearch-label:hover{background:rgba(0,0,0,0.09)}
+body.darkmode .iconsearch-label{background:#2b2b2b}
+body.darkmode .iconsearch-label:hover{background:#000}
+body.darkmode .iconsearch-label path{fill:#eee}
+.darkmode-switch .switch:hover .slider:before{background:#3d3d3d}
+body.darkmode .darkmode-switch .switch{opacity:1}
+body.darkmode .darkmode-switch .switch-title{color:#bbb;opacity:1}
+body.darkmode .darkmode-switch .slider{border:2px solid #bbb}
+body.darkmode .darkmode-switch .slider:before{background:#eee}
+body.darkmode .darkmode-switch .switch:hover .slider:before{background:#fff}
