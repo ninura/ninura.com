@@ -82,10 +82,41 @@ body.darkmode #navmenu-sidebar-body ul li a:hover{color:#fff}
 #navmenu-sidebar-body ul li ul li{list-style:none;display:block;font-weight:normal;text-transform:none;font-size:14px;font-size:.875rem}
 #navmenu-sidebar-body ul li li a{padding:8px 0}
 body.darkmode .ms-submenu-button{background:#080808}
->#navmenu-sidebar-body ul li .ms-submenu-button.ms-submenu-shown::after{margin:12px 16px 16px}
+#navmenu-sidebar-body ul li .ms-submenu-button.ms-submenu-shown::after{margin:12px 16px 16px}
 #navmenu-sidebar-body ul li li .ms-submenu-button{right:3px}
 #navmenu-sidebar-body ul li li .ms-submenu-button::after{margin:13px 13px 9px}
 #navmenu-sidebar-body ul li li .ms-submenu-button.ms-submenu-shown::after{margin:9px 13px 13px}
 .ms-submenu-button.ms-submenu-shown::after{border-color:transparent transparent #3d3d3d}
 body.darkmode .ms-submenu-button::after{border-color:#eee transparent transparent}
 body.darkmode .ms-submenu-button.ms-submenu-shown::after{border-color:transparent transparent #eee}
+.FeaturedPost h2 a:hover,.FeaturedPost h3 a:hover{color:#f57d00}
+p.featured-more a:hover{background:#d46400}
+body.darkmode .FeaturedPost .post-summary,body.darkmode .FeaturedPost .post-summary .featured-info{background:#2f2f2f}
+body.darkmode .FeaturedPost h3 a,body.darkmode .FeaturedPost h2 a{color:#eee}
+body.darkmode .FeaturedPost h3 a:hover,body.darkmode .FeaturedPost h2 a:hover{color:#fff}
+body.darkmode .FeaturedPost p.featured-desc{color:#eee}
+.FeaturedPost .post-summary p.featured-desc b.harga-produk-coret,.FeaturedPost .post-summary p.featured-desc b.harga-produk{display:block;margin:5px 0}
+.FeaturedPost .post-summary p.featured-desc b.harga-produk-coret{text-decoration:line-through;color:#c23613}
+.FeaturedPost .post-summary p.featured-desc b.harga-produk{font-size:24px;font-size:1.5rem;margin-bottom:16px;margin-bottom:1rem}
+.FeaturedPost .post-summary p.featured-desc b.info-produk,.FeaturedPost .post-summary p.featured-desc b.toc{display:none}
+.FeaturedPost .post-summary p.featured-desc b,.FeaturedPost .post-summary p.featured-desc strong,.FeaturedPost .post-summary p.featured-desc i,.FeaturedPost .post-summary p.featured-desc em,.FeaturedPost .post-summary p.featured-desc strike,.FeaturedPost .post-summary p.featured-desc u,.FeaturedPost .post-summary p.featured-desc s,.FeaturedPost .post-summary p.featured-desc del{font-weight:normal;font-style:normal;text-decoration:none}
+.FeaturedPost .post-summary p.featured-more a:hover{text-decoration:none}
+.FeaturedPost .post-summary .no-featured-img{flex-basis:100%;max-width:100%;padding:30px 30px}
+body.darkmode .latestposts-title h2{background:#323232}
+body.darkmode .latestposts-title::after{background:#383838}
+body.darkmode .latestposts-title h2{color:#eee}
+#content-wrap .post-snippet b,#content-wrap .post-snippet strong,#content-wrap .post-snippet i,#content-wrap .post-snippet em,#content-wrap .post-snippet strike,#content-wrap .post-snippet u,#content-wrap .post-snippet s,#content-wrap .post-snippet del{font-weight:normal;font-style:normal;text-decoration:none}
+#content-wrap .post-snippet b.info-produk{display:none}
+#content-wrap .post-snippet b.harga-produk-coret,#content-wrap .post-snippet b.harga-produk{display:block}
+#content-wrap .post-snippet b.harga-produk-coret{color:#d0452f;text-decoration:line-through;font-size:13px;font-size:.8125rem}
+#content-wrap .post-snippet b.harga-produk{margin-bottom:13px}
+a.read-more-link:focus .screen-reader-text,p.featured-more a:focus .screen-reader-text{background-color:#f5f5f5;clip:auto;clip-path:none;color:#3d3d3d;display:block;font-size:13px;font-size:.8125rem;height:auto;left:5px;line-height:normal;padding:7px 12px;text-decoration:none;top:22px;width:auto;z-index:1000;min-width:160px;border-radius:3px;box-shadow:0 0 6px 0 rgba(60,60,60,0.35)}
+p.featured-more a:focus .screen-reader-text{top:45px}
+.js-loading::after{border:2px solid #3d3d3d}
+.blog-pager a.js-load:hover,.blog-pager span.js-loaded:hover,.blog-pager span.js-loading:hover,a.blog-pager-newer-link:hover,a.blog-pager-older-link:hover{background:#d46400}
+.blog-pager a.blog-pager-newer-link{float:left}
+.blog-pager a.blog-pager-newer-link::before{content:'';border-width:0 0 2px 2px;display:inline-block;padding:3px;transform:rotate(45deg)}
+.blog-pager .js-load,.blog-pager .js-loading,.blog-pager .js-loaded{display:inline-block;border-radius:4px;padding:8px 20px;transition:all .2s}
+.blog-pager .js-loading::after{content:'';width:10px;height:10px;vertical-align:middle;margin-left:8px;margin-left:.5rem;margin-bottom:3px;border-radius:100%;display:inline-block;border-top:2px solid transparent;animation:load-animate infinite linear 1s}
+@keyframes load-animate{0%{transform:rotate(0)}50%{transform:rotate(180deg);opacity:.35}100%{transform:rotate(360deg)}}
+.post-content .kode-iklan-infeed{overflow:hidden}
