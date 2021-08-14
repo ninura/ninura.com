@@ -42,7 +42,6 @@ div#searchcontainer.opensearch{left:0;opacity:1;transform:scale(1) translate3d(0
 div#searchcontainer.opensearch form{opacity:1;transform:translate3d(0,0,0);transition:all .3s .3s}
 #navmenu-wrap-sticky.navsticky-show{transform:translateY(0);transition:transform .2s ease-in-out}
 body.darkmode .navmenu,body.darkmode .menu-sticky{background:#2b2b2b}
-.menu-sticky .navmenu-content>ul>li>a,.menu-sticky .navmenu-content li li a{outline:0}
 body.darkmode .navmenu-content li li a{color:#eee}
 body.darkmode .navmenu-content>ul>li>a{color:#eee}
 body.darkmode .navmenu-content>ul>li>a::before{background:#eee}
@@ -68,3 +67,25 @@ body.darkmode .darkmode-switch .switch-title{color:#bbb;opacity:1}
 body.darkmode .darkmode-switch .slider{border:2px solid #bbb}
 body.darkmode .darkmode-switch .slider:before{background:#eee}
 body.darkmode .darkmode-switch .switch:hover .slider:before{background:#fff}
+.darkmode-switch .switch:hover{opacity:1}
+.darkmode-switch input:checked+.slider{background-color:#f57d00;border:2px solid #fff}
+.darkmode-switch input:checked+.slider::before{background:#fff}
+.darkmode-switch input:checked+.slider:before{transform:translateX(18px)}
+body.darkmode .navmenu-button{color:#eee}
+body.darkmode .navmenu-button div{background-color:#eee}
+body.darkmode #navmenu-sidebar-closebtn{background:#232323}
+body.darkmode #navmenu-sidebar-closebtn .closebtn,body.darkmode #navmenu-sidebar-closebtn .closebtn-title{color:#eee}
+#navmenu-sidebar-closebtn .closebtn:hover{cursor:pointer}
+#navmenu-sidebar-body ul li a:hover{color:#2675A6}
+body.darkmode #navmenu-sidebar-body ul li a{color:#eee}
+body.darkmode #navmenu-sidebar-body ul li a:hover{color:#fff}
+#navmenu-sidebar-body ul li ul li{list-style:none;display:block;font-weight:normal;text-transform:none;font-size:14px;font-size:.875rem}
+#navmenu-sidebar-body ul li li a{padding:8px 0}
+body.darkmode .ms-submenu-button{background:#080808}
+>#navmenu-sidebar-body ul li .ms-submenu-button.ms-submenu-shown::after{margin:12px 16px 16px}
+#navmenu-sidebar-body ul li li .ms-submenu-button{right:3px}
+#navmenu-sidebar-body ul li li .ms-submenu-button::after{margin:13px 13px 9px}
+#navmenu-sidebar-body ul li li .ms-submenu-button.ms-submenu-shown::after{margin:9px 13px 13px}
+.ms-submenu-button.ms-submenu-shown::after{border-color:transparent transparent #3d3d3d}
+body.darkmode .ms-submenu-button::after{border-color:#eee transparent transparent}
+body.darkmode .ms-submenu-button.ms-submenu-shown::after{border-color:transparent transparent #eee}
